@@ -1,0 +1,61 @@
+{
+    "navigation": [
+        {
+            "id": "about",
+            "title": "Về tôi"
+        },
+        {
+            "id": "work",
+            "title": "Kinh nghiệm"
+        },
+        {
+            "id": "contact",
+            "title": "Liên hệ tôi"
+        }
+    ],
+    "CV": "Tải về CV",
+    "hero": {
+        "greeting": "Xin chào, tôi là Anh Tuấn",
+        "description": "Tôi là lập trình viên FullStack"
+    },
+    "about": {
+        "introduction": "Giới thiệu",
+        "overviewTitle": "Tổng quan.",
+        "description": "Là một Lập trình viên Full-Stack năng động, tôi đam mê phát triển các ứng dụng web sáng tạo và đột phá. Với kinh nghiệm vững chắc về React, Next.js, Node.js và Python, tôi không chỉ thành thạo thiết kế giao diện người dùng (UI/UX) mà còn có kỹ năng triển khai DevOps hiện đại như Docker. Khả năng mang lại các giải pháp chất lượng cao, dễ mở rộng được chứng minh qua một loạt các dự án Full-Stack với Next.js và các thiết kế UI/UX tối tân. Tôi sẵn sàng ứng dụng kỹ năng kỹ thuật và khả năng giải quyết vấn đề để tham gia vào những dự án tiên phong, thúc đẩy sự đổi mới và tạo giá trị bền vững."
+    },
+    "workExperience": {
+        "subtitle": "Những gì tôi đã làm cho đến nay",
+        "title": "Kinh Nghiệm Làm Việc"
+    },
+    "experience": {
+        "avm": {
+            "title": "Nhà Thiết Kế UI/UX",
+            "company_name": "Công ty TNHH Lumisec",
+            "points": [
+                "Chuyên Môn Tự Học: Đạt được kỹ năng chuyên sâu về WordPress và thiết kế UI/UX thông qua việc tự học.",
+                "Thiết Kế Cộng Tác: Làm việc chặt chẽ với các bên liên quan để thu thập phản hồi và cải tiến tính tương tác của trang web portfolio.",
+                "Phát Triển Website Thành Công: Thiết kế và phát triển trang web portfolio hấp dẫn và thân thiện với người dùng bằng WordPress.",
+                "Tác Động Kinh Doanh Tích Cực: Đóng góp vào việc tăng trưởng doanh số +54.25% và sự phát triển toàn diện của doanh nghiệp thông qua việc cải thiện website."
+            ]
+        },
+        "sparkbright": {
+            "title": "Nhà Phát Triển Next.JS",
+            "company_name": "Portfolio",
+            "points": [
+                "Chuyên Môn Tự Học: Đạt được kỹ năng chuyên sâu về React.JS và Next.JS thông qua việc tự học.",
+                "Phát Triển Website Thành Công: Thiết kế và phát triển trang web portfolio hấp dẫn và thân thiện với người dùng bằng Next.JS.",
+                "Thiết Kế Cộng Tác: Làm việc chặt chẽ với các bên liên quan để thu thập phản hồi và cải tiến tính tương tác của trang web portfolio."
+            ]
+        },
+        "wtw": {
+            "title": "Nhà Phát Triển tool",
+            "company_name": "Tunzankies",
+            "points": [
+                "Phát Triển và Duy Trì Trang Web Wordpress cho A.V.M Auto - Tiệm Sơn Xe tại Ahmedabad, Gujarat, Ấn Độ.",
+                "Phân Tích Phản Hồi và Sửa Lỗi.",
+                "Tối Ưu Hóa Công Cụ Tìm Kiếm.",
+                "Duy Trì Thiết Kế và Quản Lý Hosting."
+            ]
+        }
+    }
+}

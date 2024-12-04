@@ -1,0 +1,61 @@
+{
+    "navigation": [
+        {
+            "id": "about",
+            "title": "About"
+        },
+        {
+            "id": "work",
+            "title": "Work"
+        },
+        {
+            "id": "contact",
+            "title": "Contact"
+        }
+    ],
+    "CV": "Download CV",
+    "hero": {
+        "greeting": "Hi, I'm Tunzankies",
+        "description": "I am a FullStack developer"
+    },
+    "about": {
+        "introduction": "Introduction",
+        "overviewTitle": "Overview.",
+        "description": "Dynamic Full-Stack Developer with a passion for crafting innovative web applications. Proven expertise in React, Next.js, Node.js, and Python. Skilled in UI/UX design and DevOps (Docker). Proven ability to deliver high-quality, scalable solutions, as demonstrated by a strong portfolio of full-stack Next.js projects and modern UI/UX designs. Eager to leverage my technical prowess and problem-solving abilities to contribute to cutting-edge projects and drive innovation."
+    },
+    "workExperience": {
+        "subtitle": "What I have done so far",
+        "title": "Work Experience"
+    },
+    "experience": {
+        "avm": {
+            "title": "UI/UX Designer",
+            "company_name": "Lumisec company",
+            "points": [
+                "Self-Taught Expertise: Gained proficiency in WordPress and UI/UX design through independent learning.",
+                "Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity.",
+                "Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
+                "Positive Business Impact: Contributed to +54.25% sales and overall business growth through the improved website."
+            ]
+        },
+        "sparkbright": {
+            "title": "Next.JS Developer",
+            "company_name": "Portfolio",
+            "points": [
+                "Self-Taught Expertise: Gained proficiency in React.JS and Next.JS through independent learning.",
+                "Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
+                "Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity."
+            ]
+        },
+        "wtw": {
+            "title": "Tool Developer",
+            "company_name": "Tunzankies",
+            "points": [
+                "Developing and maintaining Wordpress Site for A.V.M Auto The Car Body Shop based in Ahmedabad, Gujarat India.",
+                "Analyzing feedbacks and fixing bugs.",
+                "Search Engine Optimization.",
+                "Design Maintainence and hosting maintenance."
+            ]
+        }
+    }
+}
