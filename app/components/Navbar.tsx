@@ -40,7 +40,7 @@ const Navbar = () => {
 
 
 
-	const changeLanguage = (lang) => {
+	const changeLanguage = (lang: 'en' | 'vi') => {
 		i18n.changeLanguage(lang);
 		setCurrentLanguage(lang);
 		if (typeof window !== "undefined") {
@@ -48,7 +48,6 @@ const Navbar = () => {
 		}
 		setLanguageDropdownOpen(false);
 	};
-
 	return (
 		<nav
 			className={`paddingX w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-primary" : "bg-transparent"
@@ -81,7 +80,7 @@ const Navbar = () => {
 
 				{/* Navigation Links */}
 				<ul className="list-none hidden sm:flex flex-row gap-10">
-					{t("navigation", { returnObjects: true }).map((nav) => (
+					{(t("navigation", { returnObjects: true }) as any[]).map((nav: any) => (
 						<li
 							key={nav.id}
 							className={`${active === nav.title ? "text-white" : "text-secondary"
@@ -150,7 +149,7 @@ const Navbar = () => {
 							} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
 					>
 						<ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
-							{t("navigation", { returnObjects: true }).map((nav) => (
+							{(t("navigation", { returnObjects: true }) as any[]).map((nav: any) => (
 								<li
 									key={nav.id}
 									className={`${active === nav.title ? "text-white" : "text-secondary"
